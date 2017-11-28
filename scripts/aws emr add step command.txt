@@ -1,0 +1,11 @@
+aws emr add-steps --cluster-id j-1DLBK1UPQ7BO5 --steps Type=Spark,Name="AWSTest",ActionOnFailure=CONTINUE,Args=[--class,Test.Launch,--master,yarn,--deploy-mode,cluster,s3://com.rat.pipeline/jar/awstestproject_2.12-1.0.jar,s3://com.rat.pipeline/output/experiment1/result]
+
+aws emr add-steps --cluster-id j-1DLBK1UPQ7BO5 --steps Type=Spark,Name="Experiment1",ActionOnFailure=CONTINUE,Args=[--class,com.rat.pipeline.Launch,--master,yarn,--deploy-mode,cluster,s3://com.rat.pipeline/jar/RAT_AWS-assembly-1.0.jar,s3://com.rat.pipeline/input/Review.txt,s3://com.rat.pipeline/output/experiment2/,s3://com.rat.pipeline/output/experiment2/validation/,s3://com.rat.pipeline/input/template]
+
+spark-submit --class com.rat.pipeline.Launch --master yarn --deploy-mode cluster s3://com.rat.pipeline/jar/RAT_AWS-assembly-1.0.jar s3://com.rat.pipeline/input/Review.txt s3://com.rat.pipeline/output/experiment1/ s3://com.rat.pipeline/output/experiment1/validation/ s3://com.rat.pipeline/input/template s3://com.rat.pipeline/output/experiment1/result 
+
+--conf "spark.executor.extraJavaOptions=-Dlog4j.configuration
+
+aws emr add-steps --cluster-id j-1DLBK1UPQ7BO5 --steps Type=Spark,Name="Experiment1",ActionOnFailure=CONTINUE,Args=[--class,com.rat.pipeline.Launch,--master,yarn,--deploy-mode,cluster,s3://com.rat.pipeline/output/RAT_AWS-assembly-1.0.jar,s3://com.rat.pipeline/input/Review.txt,/home/hadoop/experiment1/,/home/hadoop/hadoop/experiment1/validation/,s3://com.rat.pipeline/input/template]
+
+aws emr add-steps --cluster-id j-1DLBK1UPQ7BO5 --steps Type=Spark,Name="Experiment1",ActionOnFailure=CONTINUE,Args=[--class,com.rat.pipeline.Launch,--master,yarn,--deploy-mode,cluster,s3://com.rat.pipeline/jar/RAT_AWS-assembly-1.0.jar,s3://com.rat.pipeline/input/Review.txt,s3://com.rat.pipeline/output/experiment2/,s3://com.rat.pipeline/output/experiment2/validation/,s3://com.rat.pipeline/input/template]

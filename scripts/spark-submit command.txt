@@ -1,0 +1,10 @@
+args(0) = D:\spark242\RAT\dataset\Review.txt
+args(1) = D:\spark242\RAT\files\Experiment1\
+args(2) = D:\spark242\RAT\files\Experiment1\validation\
+args(3) = D:\spark242\RAT\chunking\template
+args(4) = D:\spark242\RAT\files\Experiment1\result\
+
+spark-submit --class com.rat.pipeline.Launch --master local[*] RAT_AWS-assembly-1.0.jar D:\spark242\RAT\dataset\Review.txt D:\spark242\RAT\files\Experiment1\ D:\spark242\RAT\files\Experiment1\validation\ D:\spark242\RAT\chunking\template D:\spark242\RAT\files\Experiment1\result\
+
+
+

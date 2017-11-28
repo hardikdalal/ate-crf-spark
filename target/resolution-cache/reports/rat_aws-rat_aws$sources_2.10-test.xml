@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="rat_aws"
+		module="rat_aws$sources_2.10"
+		revision="1.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20171128193813"/>
+	<dependencies>
+		<module organisation="org.scalanlp" name="breeze_2.10">
+			<revision name="0.8.1" status="release" pubdate="20140528170118" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4607" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scalanlp/breeze_2.10/ivy-0.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.8.1/breeze_2.10-0.8.1.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="0.8.1" rev-constraint-default="0.8.1" rev-constraint-dynamic="0.8.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="breeze_2.10" type="jar" ext="jar" status="no" details="" size="12903819" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scalanlp/breeze_2.10/jars/breeze_2.10-0.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.8.1/breeze_2.10-0.8.1.jar"/>
+					</artifact>
+					<artifact name="breeze_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="379137" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scalanlp/breeze_2.10/srcs/breeze_2.10-0.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.8.1/breeze_2.10-0.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging-slf4j_2.10">
+			<revision name="2.1.2" status="release" pubdate="20140425072044" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scala-logging" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3407" time="0" location="/Users/hardikdalal/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.10/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.10/2.1.2/scala-logging-slf4j_2.10-2.1.2.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-logging-slf4j_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8794" time="0" location="/Users/hardikdalal/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.10/srcs/scala-logging-slf4j_2.10-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.10/2.1.2/scala-logging-slf4j_2.10-2.1.2-sources.jar"/>
+					</artifact>
+					<artifact name="scala-logging-slf4j_2.10" type="jar" ext="jar" status="no" details="" size="76163" time="0" location="/Users/hardikdalal/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.10/jars/scala-logging-slf4j_2.10-2.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.10/2.1.2/scala-logging-slf4j_2.10-2.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.4" status="release" pubdate="20140318184707" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2647" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3203471" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="434883" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.10.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging-api_2.10">
+			<revision name="2.1.2" status="release" pubdate="20140425072040" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/scala-logging" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2584" time="0" location="/Users/hardikdalal/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.10/ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-api_2.10/2.1.2/scala-logging-api_2.10-2.1.2.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-logging-api_2.10" type="jar" ext="jar" status="no" details="" size="7694" time="0" location="/Users/hardikdalal/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.10/jars/scala-logging-api_2.10-2.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-api_2.10/2.1.2/scala-logging-api_2.10-2.1.2.jar"/>
+					</artifact>
+					<artifact name="scala-logging-api_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6232" time="0" location="/Users/hardikdalal/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.10/srcs/scala-logging-api_2.10-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging-api_2.10/2.1.2/scala-logging-api_2.10-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="spire_2.10">
+			<revision name="0.7.4" status="release" pubdate="20140424122204" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="BSD-style" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3187" time="0" location="/Users/hardikdalal/.ivy2/cache/org.spire-math/spire_2.10/ivy-0.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="spire_2.10" type="jar" ext="jar" status="no" details="" size="7253596" time="0" location="/Users/hardikdalal/.ivy2/cache/org.spire-math/spire_2.10/jars/spire_2.10-0.7.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4.jar"/>
+					</artifact>
+					<artifact name="spire_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="175888" time="0" location="/Users/hardikdalal/.ivy2/cache/org.spire-math/spire_2.10/srcs/spire_2.10-0.7.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="spire-macros_2.10">
+			<revision name="0.7.4" status="release" pubdate="20140424121914" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<license name="BSD-style" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3058" time="0" location="/Users/hardikdalal/.ivy2/cache/org.spire-math/spire-macros_2.10/ivy-0.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="0.7.4" rev-constraint-default="0.7.4" rev-constraint-dynamic="0.7.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="spire-macros_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6151" time="0" location="/Users/hardikdalal/.ivy2/cache/org.spire-math/spire-macros_2.10/srcs/spire-macros_2.10-0.7.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4-sources.jar"/>
+					</artifact>
+					<artifact name="spire-macros_2.10" type="jar" ext="jar" status="no" details="" size="79162" time="0" location="/Users/hardikdalal/.ivy2/cache/org.spire-math/spire-macros_2.10/jars/spire-macros_2.10-0.7.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalamacros" name="quasiquotes_2.10">
+			<revision name="2.0.0" status="release" pubdate="20140417060710" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalamacros/paradise" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html"/>
+				<metadata-artifact status="no" details="" size="2742" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scalamacros/quasiquotes_2.10/ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.0/quasiquotes_2.10-2.0.0.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="quasiquotes_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53173" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scalamacros/quasiquotes_2.10/srcs/quasiquotes_2.10-2.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.0/quasiquotes_2.10-2.0.0-sources.jar"/>
+					</artifact>
+					<artifact name="quasiquotes_2.10" type="jar" ext="jar" status="no" details="" size="720997" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.0/quasiquotes_2.10-2.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.2" status="release" pubdate="20130402163128" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<metadata-artifact status="no" details="" size="9435" time="0" location="/Users/hardikdalal/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-math3" type="jar" ext="jar" status="no" details="" size="1692782" time="0" location="/Users/hardikdalal/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar"/>
+					</artifact>
+					<artifact name="commons-math3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2005074" time="0" location="/Users/hardikdalal/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.rwl" name="jtransforms">
+			<revision name="2.4.0" status="release" pubdate="20120519110656" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/jtransforms/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="MPL" url="http://www.mozilla.org/MPL/2.0/index.txt"/>
+				<license name="LGPL" url="http://www.gnu.org/licenses/lgpl-2.1.txt"/>
+				<license name="GPL" url="http://www.gnu.org/licenses/gpl-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2865" time="0" location="/Users/hardikdalal/.ivy2/cache/com.github.rwl/jtransforms/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jtransforms" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="224626" time="0" location="/Users/hardikdalal/.ivy2/cache/com.github.rwl/jtransforms/srcs/jtransforms-2.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0-sources.jar"/>
+					</artifact>
+					<artifact name="jtransforms" type="jar" ext="jar" status="no" details="" size="764569" time="0" location="/Users/hardikdalal/.ivy2/cache/com.github.rwl/jtransforms/jars/jtransforms-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.8.2" status="release" pubdate="20101005055127" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2420" time="0" location="/Users/hardikdalal/.ivy2/cache/junit/junit/ivy-4.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="4.8.2" rev-constraint-default="4.8.2" rev-constraint-dynamic="4.8.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="237344" time="0" location="/Users/hardikdalal/.ivy2/cache/junit/junit/jars/junit-4.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar"/>
+					</artifact>
+					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="147086" time="0" location="/Users/hardikdalal/.ivy2/cache/junit/junit/srcs/junit-4.8.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.opencsv" name="opencsv">
+			<revision name="2.3" status="release" pubdate="20110728020018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://opencsv.sf.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3228" time="0" location="/Users/hardikdalal/.ivy2/cache/net.sf.opencsv/opencsv/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="opencsv" type="jar" ext="jar" status="no" details="" size="19827" time="0" location="/Users/hardikdalal/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar"/>
+					</artifact>
+					<artifact name="opencsv" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17058" time="0" location="/Users/hardikdalal/.ivy2/cache/net.sf.opencsv/opencsv/srcs/opencsv-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.fommil.netlib" name="core">
+			<revision name="1.1.2" status="release" pubdate="20131126075411" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<metadata-artifact status="no" details="" size="4819" time="0" location="/Users/hardikdalal/.ivy2/cache/com.github.fommil.netlib/core/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="core" type="jar" ext="jar" status="no" details="" size="164422" time="0" location="/Users/hardikdalal/.ivy2/cache/com.github.fommil.netlib/core/jars/core-1.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar"/>
+					</artifact>
+					<artifact name="core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="679224" time="0" location="/Users/hardikdalal/.ivy2/cache/com.github.fommil.netlib/core/srcs/core-1.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-macros_2.10">
+			<revision name="0.3.1" status="release" pubdate="20140424031004" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3177" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scalanlp/breeze-macros_2.10/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="breeze-macros_2.10" type="jar" ext="jar" status="no" details="" size="118419" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scalanlp/breeze-macros_2.10/jars/breeze-macros_2.10-0.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1.jar"/>
+					</artifact>
+					<artifact name="breeze-macros_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5549" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scalanlp/breeze-macros_2.10/srcs/breeze-macros_2.10-0.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.3.1/breeze-macros_2.10-0.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.6.1" status="release" pubdate="20141022221025" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://developers.google.com/protocol-buffers/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3027" time="0" location="/Users/hardikdalal/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="2.6.1" rev-constraint-default="2.6.1" rev-constraint-dynamic="2.6.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="308705" time="0" location="/Users/hardikdalal/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="596642" time="0" location="/Users/hardikdalal/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="edu.stanford.nlp" name="stanford-corenlp">
+			<revision name="3.6.0" status="release" pubdate="20160121051639" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nlp.stanford.edu/software/corenlp.shtml" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="GNU General Public License Version 3" url="http://www.gnu.org/licenses/gpl-3.0.txt"/>
+				<metadata-artifact status="no" details="" size="4071" time="0" location="/Users/hardikdalal/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/ivy-3.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="3.6.0" rev-constraint-default="3.6.0" rev-constraint-dynamic="3.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="stanford-corenlp" type="jar" ext="jar" status="no" details="" size="7270741" time="0" location="/Users/hardikdalal/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/jars/stanford-corenlp-3.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar"/>
+					</artifact>
+					<artifact name="stanford-corenlp" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4604434" time="0" location="/Users/hardikdalal/.ivy2/cache/edu.stanford.nlp/stanford-corenlp/srcs/stanford-corenlp-3.6.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.12" status="release" pubdate="20150326175005" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<metadata-artifact status="no" details="" size="4832" time="0" location="/Users/hardikdalal/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="32127" time="0" location="/Users/hardikdalal/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50813" time="0" location="/Users/hardikdalal/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.json" name="javax.json-api">
+			<revision name="1.0" status="release" pubdate="20130424182157" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://json-processing-spec.java.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<metadata-artifact status="no" details="" size="4802" time="0" location="/Users/hardikdalal/.ivy2/cache/javax.json/javax.json-api/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="javax.json-api" type="jar" ext="jar" status="no" details="" size="19754" time="0" location="/Users/hardikdalal/.ivy2/cache/javax.json/javax.json-api/jars/javax.json-api-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0.jar"/>
+					</artifact>
+					<artifact name="javax.json-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="54860" time="0" location="/Users/hardikdalal/.ivy2/cache/javax.json/javax.json-api/srcs/javax.json-api-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.efficient-java-matrix-library" name="ejml">
+			<revision name="0.23" status="release" pubdate="20130621131625" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/efficient-java-matrix-library/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="LGPL" url="http://www.gnu.org/copyleft/lesser.html"/>
+				<metadata-artifact status="no" details="" size="3179" time="0" location="/Users/hardikdalal/.ivy2/cache/com.googlecode.efficient-java-matrix-library/ejml/ivy-0.23.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="0.23" rev-constraint-default="0.23" rev-constraint-dynamic="0.23" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="ejml" type="jar" ext="jar" status="no" details="" size="301506" time="0" location="/Users/hardikdalal/.ivy2/cache/com.googlecode.efficient-java-matrix-library/ejml/jars/ejml-0.23.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.jar"/>
+					</artifact>
+					<artifact name="ejml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="315418" time="0" location="/Users/hardikdalal/.ivy2/cache/com.googlecode.efficient-java-matrix-library/ejml/srcs/ejml-0.23-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="de.jollyday" name="jollyday">
+			<revision name="0.4.7" status="release" pubdate="20121104200012" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/jollyday" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4129" time="0" location="/Users/hardikdalal/.ivy2/cache/de.jollyday/jollyday/ivy-0.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.7/jollyday-0.4.7.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="0.4.7" rev-constraint-default="0.4.7" rev-constraint-dynamic="0.4.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jollyday" type="jar" ext="jar" status="no" details="" size="200993" time="0" location="/Users/hardikdalal/.ivy2/cache/de.jollyday/jollyday/jars/jollyday-0.4.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.7/jollyday-0.4.7.jar"/>
+					</artifact>
+					<artifact name="jollyday" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="186534" time="0" location="/Users/hardikdalal/.ivy2/cache/de.jollyday/jollyday/srcs/jollyday-0.4.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.7/jollyday-0.4.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.xml.bind" name="jaxb-api">
+			<revision name="2.2.7" status="release" pubdate="20120524063721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jaxb.java.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="3149" time="0" location="/Users/hardikdalal/.ivy2/cache/javax.xml.bind/jaxb-api/ivy-2.2.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="2.2.7" rev-constraint-default="2.2.7" rev-constraint-dynamic="2.2.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jaxb-api" type="jar" ext="jar" status="no" details="" size="100146" time="0" location="/Users/hardikdalal/.ivy2/cache/javax.xml.bind/jaxb-api/jars/jaxb-api-2.2.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar"/>
+					</artifact>
+					<artifact name="jaxb-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="244681" time="0" location="/Users/hardikdalal/.ivy2/cache/javax.xml.bind/jaxb-api/srcs/jaxb-api-2.2.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9" status="release" pubdate="20151024064829" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6467" time="0" location="/Users/hardikdalal/.ivy2/cache/joda-time/joda-time/ivy-2.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="2.9" rev-constraint-default="2.9" rev-constraint-dynamic="2.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="625993" time="0" location="/Users/hardikdalal/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="764886" time="0" location="/Users/hardikdalal/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.io7m.xom" name="xom">
+			<revision name="1.2.10" status="release" pubdate="20131025131622" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xom.nu" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="The GNU Lesser General Public License, Version 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="2899" time="0" location="/Users/hardikdalal/.ivy2/cache/com.io7m.xom/xom/ivy-1.2.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="1.2.10" rev-constraint-default="1.2.10" rev-constraint-dynamic="1.2.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="xom" type="jar" ext="jar" status="no" details="" size="313253" time="0" location="/Users/hardikdalal/.ivy2/cache/com.io7m.xom/xom/jars/xom-1.2.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.jar"/>
+					</artifact>
+					<artifact name="xom" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="660102" time="0" location="/Users/hardikdalal/.ivy2/cache/com.io7m.xom/xom/srcs/xom-1.2.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xalan" name="xalan">
+			<revision name="2.7.0" status="release" pubdate="20140131111554" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<metadata-artifact status="no" details="" size="2460" time="0" location="/Users/hardikdalal/.ivy2/cache/xalan/xalan/ivy-2.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="xalan" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3137807" time="0" location="/Users/hardikdalal/.ivy2/cache/xalan/xalan/srcs/xalan-2.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0-sources.jar"/>
+					</artifact>
+					<artifact name="xalan" type="jar" ext="jar" status="no" details="" size="2730442" time="0" location="/Users/hardikdalal/.ivy2/cache/xalan/xalan/jars/xalan-2.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.8.0" status="release" pubdate="20060512173229" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xerces.apache.org/xerces2-j" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<metadata-artifact status="no" details="" size="2841" time="0" location="/Users/hardikdalal/.ivy2/cache/xerces/xercesImpl/ivy-2.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1207073" time="0" location="/Users/hardikdalal/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.jar"/>
+					</artifact>
+					<artifact name="xercesImpl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1875691" time="0" location="/Users/hardikdalal/.ivy2/cache/xerces/xercesImpl/srcs/xercesImpl-2.8.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304112633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="rat_aws" name="rat_aws$sources_2.10" conf="test, compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/Users/hardikdalal/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
