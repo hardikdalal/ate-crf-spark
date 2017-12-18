@@ -5,92 +5,27 @@
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[info] Resolving org.scala-sbt#global-plugins;0.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}
+[debug] 	found org.scala-sbt#global-plugins;0.0 in inter-project
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->default(compile)]
 [info] Resolving org.spark-packages#sbt-spark-package;0.2.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.spark-packages#sbt-spark-package;0.2.5 {compile=[default(compile)]}
-[info] Resolving org.spark-packages#sbt-spark-package;0.2.5 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.spark-packages#sbt-spark-package;0.2.5 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.spark-packages/sbt-spark-package/scala_2.10/sbt_0.13/0.2.5/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.spark-packages/sbt-spark-package/scala_2.10/sbt_0.13/0.2.5/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.spark-packages#sbt-spark-package;0.2.5
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.spark-packages/sbt-spark-package/scala_2.10/sbt_0.13/0.2.5/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.spark-packages/sbt-spark-package/scala_2.10/sbt_0.13/0.2.5/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.spark-packages#sbt-spark-package;0.2.5
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.spark-packages/sbt-spark-package/scala_2.10/sbt_0.13/0.2.5/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.spark-packages#sbt-spark-package;0.2.5
-[debug] 		tried https://repo1.maven.org/maven2/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.pom
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.pom
-[debug] 	public: no ivy file found for org.spark-packages#sbt-spark-package;0.2.5
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.spark-packages/sbt-spark-package/scala_2.10/sbt_0.13/0.2.5/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.spark-packages/sbt-spark-package/scala_2.10/sbt_0.13/0.2.5/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.spark-packages#sbt-spark-package;0.2.5
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.pom
-[debug] 	Spark Package Main Repo: found md file for org.spark-packages#sbt-spark-package;0.2.5
-[debug] 		=> https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.pom (0.2.5)
-[debug] downloading https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.pom ...
-[debug] 	Spark Package Main Repo: downloading https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.pom
-[debug] 	Spark Package Main Repo: downloading https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.pom.sha1
-[debug] sha1 OK for https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.pom
-[debug] 	[SUCCESSFUL ] org.spark-packages#sbt-spark-package;0.2.5!sbt-spark-package.pom(pom.original) (599ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.spark-packages/sbt-spark-package/0.2.5/jars/sbt-spark-package.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.spark-packages/sbt-spark-package/0.2.5/jars/sbt-spark-package.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.spark-packages/sbt-spark-package/0.2.5/jars/sbt-spark-package.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.spark-packages/sbt-spark-package/0.2.5/jars/sbt-spark-package.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.spark-packages/sbt-spark-package/0.2.5/jars/sbt-spark-package.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/spark-packages/sbt-spark-package/0.2.5/sbt-spark-package-0.2.5.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/spark-packages/sbt-spark-package/0.2.5/sbt-spark-package-0.2.5.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.spark-packages/sbt-spark-package/0.2.5/jars/sbt-spark-package.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.spark-packages/sbt-spark-package/0.2.5/jars/sbt-spark-package.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package/0.2.5/sbt-spark-package-0.2.5.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package/0.2.5/sbt-spark-package-0.2.5.jar
-[debug] 	found org.spark-packages#sbt-spark-package;0.2.5 in Spark Package Main Repo
+[debug] sbt-chain: module revision found in cache: org.spark-packages#sbt-spark-package;0.2.5
+[debug] 	found org.spark-packages#sbt-spark-package;0.2.5 in sbt-chain
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->runtime]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->compile]
 [debug] == resolving dependencies org.spark-packages#sbt-spark-package;0.2.5->com.eed3si9n#sbt-assembly;0.14.3 [compile->master(compile)]
 [info] Resolving com.eed3si9n#sbt-assembly;0.14.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.14.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.eed3si9n#sbt-assembly;0.14.3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.14.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for com.eed3si9n#sbt-assembly;0.14.3
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: found md file for com.eed3si9n#sbt-assembly;0.14.3
-[debug] 		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/ivys/ivy.xml (0.14.3)
-[debug] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/ivys/ivy.xml ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/ivys/ivy.xml.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.14.3!ivy.xml(ivy.original) (1508ms)
-[debug] 	found com.eed3si9n#sbt-assembly;0.14.3 in sbt-plugin-releases
+[debug] sbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.14.3
+[debug] 	found com.eed3si9n#sbt-assembly;0.14.3 in sbt-chain
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.scalactic#scalactic_2.10;2.2.1 [compile->default(compile)]
 [info] Resolving org.scalactic#scalactic_2.10;2.2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.10;2.2.1 {compile=[default(compile)]}
-[info] Resolving org.scalactic#scalactic_2.10;2.2.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalactic#scalactic_2.10;2.2.1 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.scalactic#scalactic_2.10;2.2.1
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.scalactic#scalactic_2.10;2.2.1
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.scalactic/scalactic_2.10/2.2.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scalactic#scalactic_2.10;2.2.1
-[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom
-[debug] 	public: found md file for org.scalactic#scalactic_2.10;2.2.1
-[debug] 		=> https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom (2.2.1)
-[debug] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.pom
-[debug] 	[SUCCESSFUL ] org.scalactic#scalactic_2.10;2.2.1!scalactic_2.10.pom(pom.original) (381ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.scalactic/scalactic_2.10/2.2.1/bundles/scalactic_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar
-[debug] 	found org.scalactic#scalactic_2.10;2.2.1 in public
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.10;2.2.1
+[debug] 	found org.scalactic#scalactic_2.10;2.2.1 in sbt-chain
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.scalactic#scalactic_2.10;2.2.1 [compile->runtime]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.scalactic#scalactic_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalactic#scalactic_2.10;2.2.1->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
@@ -123,124 +58,21 @@
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.pantsbuild#jarjar;1.6.0 [compile->default(compile)]
 [info] Resolving org.pantsbuild#jarjar;1.6.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.pantsbuild#jarjar;1.6.0 {compile=[default(compile)]}
-[info] Resolving org.pantsbuild#jarjar;1.6.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.pantsbuild#jarjar;1.6.0 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.pantsbuild/jarjar/1.6.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.pantsbuild/jarjar/1.6.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.pantsbuild#jarjar;1.6.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.pantsbuild/jarjar/1.6.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.pantsbuild/jarjar/1.6.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.pantsbuild#jarjar;1.6.0
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.pantsbuild/jarjar/1.6.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.pantsbuild#jarjar;1.6.0
-[debug] 		tried https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.0/jarjar-1.6.0.pom
-[debug] 	public: found md file for org.pantsbuild#jarjar;1.6.0
-[debug] 		=> https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.0/jarjar-1.6.0.pom (1.6.0)
-[debug] downloading https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.0/jarjar-1.6.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.0/jarjar-1.6.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.0/jarjar-1.6.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.0/jarjar-1.6.0.pom
-[debug] 	[SUCCESSFUL ] org.pantsbuild#jarjar;1.6.0!jarjar.pom(pom.original) (341ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.pantsbuild/jarjar/1.6.0/jars/jarjar.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.pantsbuild/jarjar/1.6.0/jars/jarjar.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.pantsbuild/jarjar/1.6.0/jars/jarjar.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.pantsbuild/jarjar/1.6.0/jars/jarjar.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.pantsbuild/jarjar/1.6.0/jars/jarjar.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.0/jarjar-1.6.0.jar
-[debug] 	found org.pantsbuild#jarjar;1.6.0 in public
+[debug] sbt-chain: module revision found in cache: org.pantsbuild#jarjar;1.6.0
+[debug] 	found org.pantsbuild#jarjar;1.6.0 in sbt-chain
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.pantsbuild#jarjar;1.6.0 [compile->runtime]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.3->org.pantsbuild#jarjar;1.6.0 [compile->compile]
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.apache.ant#ant;1.9.6 [compile->master(compile)]
 [info] Resolving org.apache.ant#ant;1.9.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant;1.9.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.apache.ant#ant;1.9.6 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.ant#ant;1.9.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant/1.9.6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant/1.9.6/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.ant#ant;1.9.6
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant/1.9.6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant/1.9.6/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.ant#ant;1.9.6
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.ant/ant/1.9.6/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.ant#ant;1.9.6
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom
-[debug] 	public: found md file for org.apache.ant#ant;1.9.6
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom (1.9.6)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.pom
-[debug] 	[SUCCESSFUL ] org.apache.ant#ant;1.9.6!ant.pom(pom.original) (237ms)
-[info] Resolving org.apache.ant#ant-parent;1.9.6 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant-parent;1.9.6 {}
-[info] Resolving org.apache.ant#ant-parent;1.9.6 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.ant#ant-parent;1.9.6 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-parent/1.9.6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-parent/1.9.6/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.ant#ant-parent;1.9.6
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-parent/1.9.6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-parent/1.9.6/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.ant#ant-parent;1.9.6
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.ant/ant-parent/1.9.6/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.ant#ant-parent;1.9.6
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom
-[debug] 	public: found md file for org.apache.ant#ant-parent;1.9.6
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom (1.9.6)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.pom
-[debug] 	[SUCCESSFUL ] org.apache.ant#ant-parent;1.9.6!ant-parent.pom(pom.original) (334ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-parent/1.9.6/jars/ant-parent.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/apache/ant/ant-parent/1.9.6/ant-parent-1.9.6.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant/1.9.6/jars/ant.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant/1.9.6/jars/ant.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant/1.9.6/jars/ant.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant/1.9.6/jars/ant.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.ant/ant/1.9.6/jars/ant.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar
-[debug] 	found org.apache.ant#ant;1.9.6 in public
+[debug] sbt-chain: module revision found in cache: org.apache.ant#ant;1.9.6
+[debug] 	found org.apache.ant#ant;1.9.6 in sbt-chain
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.apache.ant#ant;1.9.6 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->master(compile)]
 [info] Resolving org.apache.ant#ant-launcher;1.9.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant-launcher;1.9.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.apache.ant#ant-launcher;1.9.6 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.ant#ant-launcher;1.9.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.9.6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.9.6/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.ant#ant-launcher;1.9.6
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.9.6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.9.6/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.ant#ant-launcher;1.9.6
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.ant/ant-launcher/1.9.6/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.ant#ant-launcher;1.9.6
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom
-[debug] 	public: found md file for org.apache.ant#ant-launcher;1.9.6
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom (1.9.6)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.pom
-[debug] 	[SUCCESSFUL ] org.apache.ant#ant-launcher;1.9.6!ant-launcher.pom(pom.original) (411ms)
-[info] Resolving org.apache.ant#ant-parent;1.9.6 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant-parent;1.9.6 {}
-[debug] sbt-chain: module revision found in cache: org.apache.ant#ant-parent;1.9.6
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.9.6/jars/ant-launcher.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-launcher/1.9.6/jars/ant-launcher.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.9.6/jars/ant-launcher.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-launcher/1.9.6/jars/ant-launcher.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.ant/ant-launcher/1.9.6/jars/ant-launcher.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar
-[debug] 	found org.apache.ant#ant-launcher;1.9.6 in public
+[debug] sbt-chain: module revision found in cache: org.apache.ant#ant-launcher;1.9.6
+[debug] 	found org.apache.ant#ant-launcher;1.9.6 in sbt-chain
 [debug] == resolving dependencies org.apache.ant#ant;1.9.6->org.apache.ant#ant-launcher;1.9.6 [compile->compile(*)]
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.apache.ant#ant;1.9.6 [compile->runtime(*)]
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.apache.ant#ant;1.9.6 [compile->compile]
@@ -249,159 +81,22 @@
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.ow2.asm#asm;5.0.4 [compile->master(compile)]
 [info] Resolving org.ow2.asm#asm;5.0.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm;5.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.ow2.asm#asm;5.0.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.ow2.asm#asm;5.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm/5.0.4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm/5.0.4/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.ow2.asm#asm;5.0.4
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm/5.0.4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm/5.0.4/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.ow2.asm#asm;5.0.4
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.ow2.asm/asm/5.0.4/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.ow2.asm#asm;5.0.4
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
-[debug] 	public: found md file for org.ow2.asm#asm;5.0.4
-[debug] 		=> https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom (5.0.4)
-[debug] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
-[debug] 	[SUCCESSFUL ] org.ow2.asm#asm;5.0.4!asm.pom(pom.original) (187ms)
-[info] Resolving org.ow2.asm#asm-parent;5.0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;5.0.4 {}
-[info] Resolving org.ow2.asm#asm-parent;5.0.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.ow2.asm#asm-parent;5.0.4 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm-parent/5.0.4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm-parent/5.0.4/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.ow2.asm#asm-parent;5.0.4
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-parent/5.0.4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-parent/5.0.4/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.ow2.asm#asm-parent;5.0.4
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.ow2.asm/asm-parent/5.0.4/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.ow2.asm#asm-parent;5.0.4
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom
-[debug] 	public: found md file for org.ow2.asm#asm-parent;5.0.4
-[debug] 		=> https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom (5.0.4)
-[debug] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom
-[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-parent;5.0.4!asm-parent.pom(pom.original) (287ms)
-[info] Resolving org.ow2#ow2;1.3 ...
-[debug] sbt-chain: Checking cache for: dependency: org.ow2#ow2;1.3 {}
-[info] Resolving org.ow2#ow2;1.3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.ow2#ow2;1.3 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.ow2/ow2/1.3/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.ow2/ow2/1.3/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.ow2#ow2;1.3
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2/ow2/1.3/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2/ow2/1.3/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.ow2#ow2;1.3
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.ow2/ow2/1.3/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.ow2#ow2;1.3
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom
-[debug] 	public: found md file for org.ow2#ow2;1.3
-[debug] 		=> https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom (1.3)
-[debug] downloading https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom
-[debug] 	[SUCCESSFUL ] org.ow2#ow2;1.3!ow2.pom(pom.original) (170ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.ow2/ow2/1.3/jars/ow2.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.ow2/ow2/1.3/jars/ow2.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2/ow2/1.3/jars/ow2.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2/ow2/1.3/jars/ow2.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.ow2/ow2/1.3/jars/ow2.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2/ow2/1.3/jars/ow2.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2/ow2/1.3/jars/ow2.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/ow2/ow2/1.3/ow2-1.3.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/ow2/ow2/1.3/ow2-1.3.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm-parent/5.0.4/jars/asm-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm-parent/5.0.4/jars/asm-parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-parent/5.0.4/jars/asm-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-parent/5.0.4/jars/asm-parent.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.ow2.asm/asm-parent/5.0.4/jars/asm-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-parent/5.0.4/jars/asm-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-parent/5.0.4/jars/asm-parent.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm/5.0.4/jars/asm.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm/5.0.4/jars/asm.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm/5.0.4/jars/asm.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm/5.0.4/jars/asm.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.ow2.asm/asm/5.0.4/jars/asm.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar
-[debug] 	found org.ow2.asm#asm;5.0.4 in public
+[debug] sbt-chain: module revision found in cache: org.ow2.asm#asm;5.0.4
+[debug] 	found org.ow2.asm#asm;5.0.4 in sbt-chain
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.ow2.asm#asm;5.0.4 [compile->compile(*)]
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.ow2.asm#asm;5.0.4 [compile->runtime(*)]
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.ow2.asm#asm;5.0.4 [compile->compile]
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.ow2.asm#asm-commons;5.0.4 [compile->master(compile)]
 [info] Resolving org.ow2.asm#asm-commons;5.0.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-commons;5.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.ow2.asm#asm-commons;5.0.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.ow2.asm#asm-commons;5.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm-commons/5.0.4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm-commons/5.0.4/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.ow2.asm#asm-commons;5.0.4
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-commons/5.0.4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-commons/5.0.4/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.ow2.asm#asm-commons;5.0.4
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.ow2.asm/asm-commons/5.0.4/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.ow2.asm#asm-commons;5.0.4
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.pom
-[debug] 	public: found md file for org.ow2.asm#asm-commons;5.0.4
-[debug] 		=> https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.pom (5.0.4)
-[debug] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.pom
-[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-commons;5.0.4!asm-commons.pom(pom.original) (156ms)
-[info] Resolving org.ow2.asm#asm-parent;5.0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;5.0.4 {}
-[debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-parent;5.0.4
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm-commons/5.0.4/jars/asm-commons.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm-commons/5.0.4/jars/asm-commons.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-commons/5.0.4/jars/asm-commons.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-commons/5.0.4/jars/asm-commons.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.ow2.asm/asm-commons/5.0.4/jars/asm-commons.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar
-[debug] 	found org.ow2.asm#asm-commons;5.0.4 in public
+[debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-commons;5.0.4
+[debug] 	found org.ow2.asm#asm-commons;5.0.4 in sbt-chain
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.ow2.asm#asm-commons;5.0.4 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-commons;5.0.4->org.ow2.asm#asm-tree;5.0.4 [compile->master(compile)]
 [info] Resolving org.ow2.asm#asm-tree;5.0.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-tree;5.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.ow2.asm#asm-tree;5.0.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.ow2.asm#asm-tree;5.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm-tree/5.0.4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm-tree/5.0.4/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.ow2.asm#asm-tree;5.0.4
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-tree/5.0.4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-tree/5.0.4/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.ow2.asm#asm-tree;5.0.4
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.ow2.asm/asm-tree/5.0.4/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.ow2.asm#asm-tree;5.0.4
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.pom
-[debug] 	public: found md file for org.ow2.asm#asm-tree;5.0.4
-[debug] 		=> https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.pom (5.0.4)
-[debug] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.pom
-[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-tree;5.0.4!asm-tree.pom(pom.original) (394ms)
-[info] Resolving org.ow2.asm#asm-parent;5.0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;5.0.4 {}
-[debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-parent;5.0.4
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm-tree/5.0.4/jars/asm-tree.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.ow2.asm/asm-tree/5.0.4/jars/asm-tree.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-tree/5.0.4/jars/asm-tree.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.ow2.asm/asm-tree/5.0.4/jars/asm-tree.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.ow2.asm/asm-tree/5.0.4/jars/asm-tree.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar
-[debug] 	found org.ow2.asm#asm-tree;5.0.4 in public
+[debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-tree;5.0.4
+[debug] 	found org.ow2.asm#asm-tree;5.0.4 in sbt-chain
 [debug] == resolving dependencies org.ow2.asm#asm-commons;5.0.4->org.ow2.asm#asm-tree;5.0.4 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;5.0.4->org.ow2.asm#asm;5.0.4 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;5.0.4->org.ow2.asm#asm;5.0.4 [compile->compile(*)]
@@ -414,375 +109,34 @@
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.apache.maven#maven-plugin-api;3.3.3 [compile->master(compile)]
 [info] Resolving org.apache.maven#maven-plugin-api;3.3.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.maven#maven-plugin-api;3.3.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.apache.maven#maven-plugin-api;3.3.3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.maven#maven-plugin-api;3.3.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-plugin-api/3.3.3/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-plugin-api/3.3.3/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.maven#maven-plugin-api;3.3.3
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-plugin-api/3.3.3/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-plugin-api/3.3.3/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.maven#maven-plugin-api;3.3.3
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.maven/maven-plugin-api/3.3.3/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.maven#maven-plugin-api;3.3.3
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom
-[debug] 	public: found md file for org.apache.maven#maven-plugin-api;3.3.3
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom (3.3.3)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.pom
-[debug] 	[SUCCESSFUL ] org.apache.maven#maven-plugin-api;3.3.3!maven-plugin-api.pom(pom.original) (172ms)
-[info] Resolving org.apache.maven#maven;3.3.3 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.maven#maven;3.3.3 {}
-[info] Resolving org.apache.maven#maven;3.3.3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.maven#maven;3.3.3 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven/3.3.3/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven/3.3.3/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.maven#maven;3.3.3
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven/3.3.3/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven/3.3.3/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.maven#maven;3.3.3
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.maven/maven/3.3.3/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.maven#maven;3.3.3
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.pom
-[debug] 	public: found md file for org.apache.maven#maven;3.3.3
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.pom (3.3.3)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.pom
-[debug] 	[SUCCESSFUL ] org.apache.maven#maven;3.3.3!maven.pom(pom.original) (240ms)
-[info] Resolving org.apache.maven#maven-parent;26 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.maven#maven-parent;26 {}
-[info] Resolving org.apache.maven#maven-parent;26 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.maven#maven-parent;26 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-parent/26/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-parent/26/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.maven#maven-parent;26
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-parent/26/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-parent/26/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.maven#maven-parent;26
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.maven/maven-parent/26/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.maven#maven-parent;26
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom
-[debug] 	public: found md file for org.apache.maven#maven-parent;26
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom (26)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom
-[debug] 	[SUCCESSFUL ] org.apache.maven#maven-parent;26!maven-parent.pom(pom.original) (403ms)
-[info] Resolving org.apache#apache;16 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;16 {}
-[info] Resolving org.apache#apache;16 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache#apache;16 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache#apache;16
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache#apache;16
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache/apache/16/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache#apache;16
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom
-[debug] 	public: found md file for org.apache#apache;16
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom (16)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom
-[debug] 	[SUCCESSFUL ] org.apache#apache;16!apache.pom(pom.original) (192ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/jars/apache.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/16/jars/apache.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache/apache/16/jars/apache.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/16/jars/apache.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/apache/apache/16/apache-16.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/apache/apache/16/apache-16.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-parent/26/jars/maven-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-parent/26/jars/maven-parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-parent/26/jars/maven-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-parent/26/jars/maven-parent.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.maven/maven-parent/26/jars/maven-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-parent/26/jars/maven-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-parent/26/jars/maven-parent.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/apache/maven/maven-parent/26/maven-parent-26.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/apache/maven/maven-parent/26/maven-parent-26.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven/3.3.3/jars/maven.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven/3.3.3/jars/maven.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven/3.3.3/jars/maven.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven/3.3.3/jars/maven.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.maven/maven/3.3.3/jars/maven.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/maven/maven/3.3.3/maven-3.3.3.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven/3.3.3/jars/maven.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven/3.3.3/jars/maven.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/apache/maven/maven/3.3.3/maven-3.3.3.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/apache/maven/maven/3.3.3/maven-3.3.3.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-plugin-api/3.3.3/jars/maven-plugin-api.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-plugin-api/3.3.3/jars/maven-plugin-api.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-plugin-api/3.3.3/jars/maven-plugin-api.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-plugin-api/3.3.3/jars/maven-plugin-api.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.maven/maven-plugin-api/3.3.3/jars/maven-plugin-api.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.jar
-[debug] 	found org.apache.maven#maven-plugin-api;3.3.3 in public
+[debug] sbt-chain: module revision found in cache: org.apache.maven#maven-plugin-api;3.3.3
+[debug] 	found org.apache.maven#maven-plugin-api;3.3.3 in sbt-chain
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.0->org.apache.maven#maven-plugin-api;3.3.3 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.maven#maven-plugin-api;3.3.3->org.apache.maven#maven-model;3.3.3 [compile->master(compile)]
 [info] Resolving org.apache.maven#maven-model;3.3.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.maven#maven-model;3.3.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.apache.maven#maven-model;3.3.3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.maven#maven-model;3.3.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-model/3.3.3/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-model/3.3.3/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.maven#maven-model;3.3.3
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-model/3.3.3/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-model/3.3.3/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.maven#maven-model;3.3.3
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.maven/maven-model/3.3.3/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.maven#maven-model;3.3.3
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom
-[debug] 	public: found md file for org.apache.maven#maven-model;3.3.3
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom (3.3.3)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.pom
-[debug] 	[SUCCESSFUL ] org.apache.maven#maven-model;3.3.3!maven-model.pom(pom.original) (376ms)
-[info] Resolving org.apache.maven#maven;3.3.3 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.maven#maven;3.3.3 {}
-[debug] sbt-chain: module revision found in cache: org.apache.maven#maven;3.3.3
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-model/3.3.3/jars/maven-model.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-model/3.3.3/jars/maven-model.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-model/3.3.3/jars/maven-model.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-model/3.3.3/jars/maven-model.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.maven/maven-model/3.3.3/jars/maven-model.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar
-[debug] 	found org.apache.maven#maven-model;3.3.3 in public
+[debug] sbt-chain: module revision found in cache: org.apache.maven#maven-model;3.3.3
+[debug] 	found org.apache.maven#maven-model;3.3.3 in sbt-chain
 [debug] == resolving dependencies org.apache.maven#maven-plugin-api;3.3.3->org.apache.maven#maven-model;3.3.3 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.maven#maven-model;3.3.3->org.codehaus.plexus#plexus-utils;3.0.20 [compile->master(compile)]
 [info] Resolving org.codehaus.plexus#plexus-utils;3.0.20 ...
 [debug] sbt-chain: Checking cache for: dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.codehaus.plexus#plexus-utils;3.0.20 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-utils/3.0.20/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-utils/3.0.20/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.codehaus.plexus#plexus-utils;3.0.20
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-utils/3.0.20/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-utils/3.0.20/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.codehaus.plexus#plexus-utils;3.0.20
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.codehaus.plexus/plexus-utils/3.0.20/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.codehaus.plexus#plexus-utils;3.0.20
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.pom
-[debug] 	public: found md file for org.codehaus.plexus#plexus-utils;3.0.20
-[debug] 		=> https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.pom (3.0.20)
-[debug] downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.pom
-[debug] 	[SUCCESSFUL ] org.codehaus.plexus#plexus-utils;3.0.20!plexus-utils.pom(pom.original) (197ms)
-[info] Resolving org.codehaus.plexus#plexus;3.3.1 ...
-[debug] sbt-chain: Checking cache for: dependency: org.codehaus.plexus#plexus;3.3.1 {}
-[info] Resolving org.codehaus.plexus#plexus;3.3.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.codehaus.plexus#plexus;3.3.1 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus/3.3.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus/3.3.1/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.codehaus.plexus#plexus;3.3.1
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/3.3.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/3.3.1/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.codehaus.plexus#plexus;3.3.1
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.codehaus.plexus/plexus/3.3.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.codehaus.plexus#plexus;3.3.1
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom
-[debug] 	public: found md file for org.codehaus.plexus#plexus;3.3.1
-[debug] 		=> https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom (3.3.1)
-[debug] downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom
-[debug] 	[SUCCESSFUL ] org.codehaus.plexus#plexus;3.3.1!plexus.pom(pom.original) (313ms)
-[info] Resolving org.sonatype.spice#spice-parent;17 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.spice#spice-parent;17 {}
-[info] Resolving org.sonatype.spice#spice-parent;17 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.sonatype.spice#spice-parent;17 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.spice/spice-parent/17/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.spice/spice-parent/17/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.sonatype.spice#spice-parent;17
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.spice/spice-parent/17/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.spice/spice-parent/17/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.sonatype.spice#spice-parent;17
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.sonatype.spice/spice-parent/17/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.sonatype.spice#spice-parent;17
-[debug] 		tried https://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
-[debug] 	public: found md file for org.sonatype.spice#spice-parent;17
-[debug] 		=> https://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom (17)
-[debug] downloading https://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
-[debug] 	[SUCCESSFUL ] org.sonatype.spice#spice-parent;17!spice-parent.pom(pom.original) (247ms)
-[info] Resolving org.sonatype.forge#forge-parent;10 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.forge#forge-parent;10 {}
-[info] Resolving org.sonatype.forge#forge-parent;10 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.sonatype.forge#forge-parent;10 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.forge/forge-parent/10/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.forge/forge-parent/10/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.sonatype.forge#forge-parent;10
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.forge/forge-parent/10/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.forge/forge-parent/10/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.sonatype.forge#forge-parent;10
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.sonatype.forge/forge-parent/10/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.sonatype.forge#forge-parent;10
-[debug] 		tried https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
-[debug] 	public: found md file for org.sonatype.forge#forge-parent;10
-[debug] 		=> https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom (10)
-[debug] downloading https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
-[debug] 	[SUCCESSFUL ] org.sonatype.forge#forge-parent;10!forge-parent.pom(pom.original) (550ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.forge/forge-parent/10/jars/forge-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.forge/forge-parent/10/jars/forge-parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.forge/forge-parent/10/jars/forge-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.forge/forge-parent/10/jars/forge-parent.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.sonatype.forge/forge-parent/10/jars/forge-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.forge/forge-parent/10/jars/forge-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.forge/forge-parent/10/jars/forge-parent.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/sonatype/forge/forge-parent/10/forge-parent-10.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/sonatype/forge/forge-parent/10/forge-parent-10.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.spice/spice-parent/17/jars/spice-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.spice/spice-parent/17/jars/spice-parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.spice/spice-parent/17/jars/spice-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.spice/spice-parent/17/jars/spice-parent.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.sonatype.spice/spice-parent/17/jars/spice-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.spice/spice-parent/17/jars/spice-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.spice/spice-parent/17/jars/spice-parent.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/sonatype/spice/spice-parent/17/spice-parent-17.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/sonatype/spice/spice-parent/17/spice-parent-17.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus/3.3.1/jars/plexus.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus/3.3.1/jars/plexus.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/3.3.1/jars/plexus.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/3.3.1/jars/plexus.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.codehaus.plexus/plexus/3.3.1/jars/plexus.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/3.3.1/jars/plexus.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/3.3.1/jars/plexus.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-utils/3.0.20/jars/plexus-utils.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-utils/3.0.20/jars/plexus-utils.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-utils/3.0.20/jars/plexus-utils.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-utils/3.0.20/jars/plexus-utils.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.codehaus.plexus/plexus-utils/3.0.20/jars/plexus-utils.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar
-[debug] 	found org.codehaus.plexus#plexus-utils;3.0.20 in public
+[debug] sbt-chain: module revision found in cache: org.codehaus.plexus#plexus-utils;3.0.20
+[debug] 	found org.codehaus.plexus#plexus-utils;3.0.20 in sbt-chain
 [debug] == resolving dependencies org.apache.maven#maven-model;3.3.3->org.codehaus.plexus#plexus-utils;3.0.20 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.maven#maven-plugin-api;3.3.3->org.apache.maven#maven-artifact;3.3.3 [compile->master(compile)]
 [info] Resolving org.apache.maven#maven-artifact;3.3.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.maven#maven-artifact;3.3.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.apache.maven#maven-artifact;3.3.3 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.maven#maven-artifact;3.3.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-artifact/3.3.3/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-artifact/3.3.3/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.maven#maven-artifact;3.3.3
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-artifact/3.3.3/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-artifact/3.3.3/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.maven#maven-artifact;3.3.3
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.maven/maven-artifact/3.3.3/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.maven#maven-artifact;3.3.3
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom
-[debug] 	public: found md file for org.apache.maven#maven-artifact;3.3.3
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom (3.3.3)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.pom
-[debug] 	[SUCCESSFUL ] org.apache.maven#maven-artifact;3.3.3!maven-artifact.pom(pom.original) (412ms)
-[info] Resolving org.apache.maven#maven;3.3.3 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.maven#maven;3.3.3 {}
-[debug] sbt-chain: module revision found in cache: org.apache.maven#maven;3.3.3
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-artifact/3.3.3/jars/maven-artifact.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.maven/maven-artifact/3.3.3/jars/maven-artifact.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-artifact/3.3.3/jars/maven-artifact.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.maven/maven-artifact/3.3.3/jars/maven-artifact.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.maven/maven-artifact/3.3.3/jars/maven-artifact.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.jar
-[debug] 	found org.apache.maven#maven-artifact;3.3.3 in public
+[debug] sbt-chain: module revision found in cache: org.apache.maven#maven-artifact;3.3.3
+[debug] 	found org.apache.maven#maven-artifact;3.3.3 in sbt-chain
 [debug] == resolving dependencies org.apache.maven#maven-plugin-api;3.3.3->org.apache.maven#maven-artifact;3.3.3 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.maven#maven-artifact;3.3.3->org.codehaus.plexus#plexus-utils;3.0.20 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.maven#maven-artifact;3.3.3->org.codehaus.plexus#plexus-utils;3.0.20 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.maven#maven-plugin-api;3.3.3->org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0 [compile->master(compile)]
 [info] Resolving org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/org.eclipse.sisu.plexus/0.3.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/org.eclipse.sisu.plexus/0.3.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/org.eclipse.sisu.plexus/0.3.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/org.eclipse.sisu.plexus/0.3.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.eclipse.sisu/org.eclipse.sisu.plexus/0.3.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.pom
-[debug] 	public: found md file for org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.pom (0.3.0)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0!org.eclipse.sisu.plexus.pom(pom.original) (163ms)
-[info] Resolving org.eclipse.sisu#sisu-plexus;0.3.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.sisu#sisu-plexus;0.3.0 {}
-[info] Resolving org.eclipse.sisu#sisu-plexus;0.3.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.sisu#sisu-plexus;0.3.0 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/sisu-plexus/0.3.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/sisu-plexus/0.3.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.eclipse.sisu#sisu-plexus;0.3.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/sisu-plexus/0.3.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/sisu-plexus/0.3.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.eclipse.sisu#sisu-plexus;0.3.0
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.eclipse.sisu/sisu-plexus/0.3.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.sisu#sisu-plexus;0.3.0
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.pom
-[debug] 	public: found md file for org.eclipse.sisu#sisu-plexus;0.3.0
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.pom (0.3.0)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.sisu#sisu-plexus;0.3.0!sisu-plexus.pom(pom.original) (381ms)
-[info] Resolving org.sonatype.oss#oss-parent;9 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/sisu-plexus/0.3.0/jars/sisu-plexus.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/sisu-plexus/0.3.0/jars/sisu-plexus.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/sisu-plexus/0.3.0/jars/sisu-plexus.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/sisu-plexus/0.3.0/jars/sisu-plexus.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.eclipse.sisu/sisu-plexus/0.3.0/jars/sisu-plexus.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/sisu-plexus/0.3.0/jars/sisu-plexus.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/sisu-plexus/0.3.0/jars/sisu-plexus.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/eclipse/sisu/sisu-plexus/0.3.0/sisu-plexus-0.3.0.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/org.eclipse.sisu.plexus/0.3.0/eclipse-plugins/org.eclipse.sisu.plexus.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/org.eclipse.sisu.plexus/0.3.0/eclipse-plugins/org.eclipse.sisu.plexus.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/org.eclipse.sisu.plexus/0.3.0/eclipse-plugins/org.eclipse.sisu.plexus.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/org.eclipse.sisu.plexus/0.3.0/eclipse-plugins/org.eclipse.sisu.plexus.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.eclipse.sisu/org.eclipse.sisu.plexus/0.3.0/eclipse-plugins/org.eclipse.sisu.plexus.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.jar
-[debug] 	found org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0 in public
+[debug] sbt-chain: module revision found in cache: org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0
+[debug] 	found org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.codehaus.plexus#plexus-utils;3.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.apache.maven#maven-plugin-api;3.3.3->org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0 [compile->compile(*)]
 [debug] dependency descriptor has been mediated: dependency: org.codehaus.plexus#plexus-utils;3.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -793,124 +147,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.codehaus.plexus#plexus-utils;3.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving javax.enterprise#cdi-api;1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: javax.enterprise#cdi-api;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving javax.enterprise#cdi-api;1.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: javax.enterprise#cdi-api;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/javax.enterprise/cdi-api/1.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/javax.enterprise/cdi-api/1.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for javax.enterprise#cdi-api;1.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.enterprise/cdi-api/1.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.enterprise/cdi-api/1.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for javax.enterprise#cdi-api;1.0
-[debug] 		tried /Users/hardikdalal/.ivy2/local/javax.enterprise/cdi-api/1.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for javax.enterprise#cdi-api;1.0
-[debug] 		tried https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom
-[debug] 	public: found md file for javax.enterprise#cdi-api;1.0
-[debug] 		=> https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom (1.0)
-[debug] downloading https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom
-[debug] 	[SUCCESSFUL ] javax.enterprise#cdi-api;1.0!cdi-api.pom(pom.original) (367ms)
-[info] Resolving org.jboss.weld#weld-api-parent;1.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.jboss.weld#weld-api-parent;1.0 {}
-[info] Resolving org.jboss.weld#weld-api-parent;1.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.jboss.weld#weld-api-parent;1.0 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-api-parent/1.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-api-parent/1.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.jboss.weld#weld-api-parent;1.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-api-parent/1.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-api-parent/1.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.jboss.weld#weld-api-parent;1.0
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.jboss.weld/weld-api-parent/1.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.jboss.weld#weld-api-parent;1.0
-[debug] 		tried https://repo1.maven.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom
-[debug] 	public: found md file for org.jboss.weld#weld-api-parent;1.0
-[debug] 		=> https://repo1.maven.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom (1.0)
-[debug] downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom
-[debug] 	[SUCCESSFUL ] org.jboss.weld#weld-api-parent;1.0!weld-api-parent.pom(pom.original) (357ms)
-[info] Resolving org.jboss.weld#weld-api-bom;1.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.jboss.weld#weld-api-bom;1.0 {}
-[info] Resolving org.jboss.weld#weld-api-bom;1.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.jboss.weld#weld-api-bom;1.0 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-api-bom/1.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-api-bom/1.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.jboss.weld#weld-api-bom;1.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-api-bom/1.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-api-bom/1.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.jboss.weld#weld-api-bom;1.0
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.jboss.weld/weld-api-bom/1.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.jboss.weld#weld-api-bom;1.0
-[debug] 		tried https://repo1.maven.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom
-[debug] 	public: found md file for org.jboss.weld#weld-api-bom;1.0
-[debug] 		=> https://repo1.maven.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom (1.0)
-[debug] downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom
-[debug] 	[SUCCESSFUL ] org.jboss.weld#weld-api-bom;1.0!weld-api-bom.pom(pom.original) (238ms)
-[info] Resolving org.jboss.weld#weld-parent;6 ...
-[debug] sbt-chain: Checking cache for: dependency: org.jboss.weld#weld-parent;6 {}
-[info] Resolving org.jboss.weld#weld-parent;6 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.jboss.weld#weld-parent;6 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-parent/6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-parent/6/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.jboss.weld#weld-parent;6
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-parent/6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-parent/6/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.jboss.weld#weld-parent;6
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.jboss.weld/weld-parent/6/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.jboss.weld#weld-parent;6
-[debug] 		tried https://repo1.maven.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom
-[debug] 	public: found md file for org.jboss.weld#weld-parent;6
-[debug] 		=> https://repo1.maven.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom (6)
-[debug] downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom
-[debug] 	[SUCCESSFUL ] org.jboss.weld#weld-parent;6!weld-parent.pom(pom.original) (292ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-parent/6/jars/weld-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-parent/6/jars/weld-parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-parent/6/jars/weld-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-parent/6/jars/weld-parent.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.jboss.weld/weld-parent/6/jars/weld-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-parent/6/jars/weld-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-parent/6/jars/weld-parent.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/jboss/weld/weld-parent/6/weld-parent-6.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/jboss/weld/weld-parent/6/weld-parent-6.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-api-bom/1.0/jars/weld-api-bom.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-api-bom/1.0/jars/weld-api-bom.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-api-bom/1.0/jars/weld-api-bom.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-api-bom/1.0/jars/weld-api-bom.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.jboss.weld/weld-api-bom/1.0/jars/weld-api-bom.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-api-bom/1.0/jars/weld-api-bom.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-api-bom/1.0/jars/weld-api-bom.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-api-parent/1.0/jars/weld-api-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.jboss.weld/weld-api-parent/1.0/jars/weld-api-parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-api-parent/1.0/jars/weld-api-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-api-parent/1.0/jars/weld-api-parent.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.jboss.weld/weld-api-parent/1.0/jars/weld-api-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-api-parent/1.0/jars/weld-api-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jboss.weld/weld-api-parent/1.0/jars/weld-api-parent.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/javax.enterprise/cdi-api/1.0/jars/cdi-api.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/javax.enterprise/cdi-api/1.0/jars/cdi-api.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.enterprise/cdi-api/1.0/jars/cdi-api.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.enterprise/cdi-api/1.0/jars/cdi-api.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/javax.enterprise/cdi-api/1.0/jars/cdi-api.jar
-[debug] 		tried https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
-[debug] 	found javax.enterprise#cdi-api;1.0 in public
+[debug] sbt-chain: module revision found in cache: javax.enterprise#cdi-api;1.0
+[debug] 	found javax.enterprise#cdi-api;1.0 in sbt-chain
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->javax.enterprise#cdi-api;1.0 [compile->compile(*)]
 [debug] excluding dependency: org.jboss.interceptor#jboss-interceptor-api;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies javax.enterprise#cdi-api;1.0->javax.annotation#jsr250-api;1.0 [compile->master(compile)]
@@ -921,31 +159,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.codehaus.plexus#plexus-utils;3.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving javax.annotation#jsr250-api;1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: javax.annotation#jsr250-api;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving javax.annotation#jsr250-api;1.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: javax.annotation#jsr250-api;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/javax.annotation/jsr250-api/1.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/javax.annotation/jsr250-api/1.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for javax.annotation#jsr250-api;1.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.annotation/jsr250-api/1.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.annotation/jsr250-api/1.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for javax.annotation#jsr250-api;1.0
-[debug] 		tried /Users/hardikdalal/.ivy2/local/javax.annotation/jsr250-api/1.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for javax.annotation#jsr250-api;1.0
-[debug] 		tried https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom
-[debug] 	public: found md file for javax.annotation#jsr250-api;1.0
-[debug] 		=> https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom (1.0)
-[debug] downloading https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom
-[debug] 	[SUCCESSFUL ] javax.annotation#jsr250-api;1.0!jsr250-api.pom(pom.original) (352ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/javax.annotation/jsr250-api/1.0/jars/jsr250-api.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/javax.annotation/jsr250-api/1.0/jars/jsr250-api.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.annotation/jsr250-api/1.0/jars/jsr250-api.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.annotation/jsr250-api/1.0/jars/jsr250-api.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/javax.annotation/jsr250-api/1.0/jars/jsr250-api.jar
-[debug] 		tried https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
-[debug] 	found javax.annotation#jsr250-api;1.0 in public
+[debug] sbt-chain: module revision found in cache: javax.annotation#jsr250-api;1.0
+[debug] 	found javax.annotation#jsr250-api;1.0 in sbt-chain
 [debug] == resolving dependencies javax.enterprise#cdi-api;1.0->javax.annotation#jsr250-api;1.0 [compile->compile(*)]
 [debug] == resolving dependencies javax.enterprise#cdi-api;1.0->javax.inject#javax.inject;1 [compile->master(compile)]
 [debug] excluding dependency: org.jboss.interceptor#jboss-interceptor-api;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
@@ -955,31 +170,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.codehaus.plexus#plexus-utils;3.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving javax.inject#javax.inject;1 ...
 [debug] sbt-chain: Checking cache for: dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving javax.inject#javax.inject;1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: javax.inject#javax.inject;1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/javax.inject/javax.inject/1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/javax.inject/javax.inject/1/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for javax.inject#javax.inject;1
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.inject/javax.inject/1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.inject/javax.inject/1/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for javax.inject#javax.inject;1
-[debug] 		tried /Users/hardikdalal/.ivy2/local/javax.inject/javax.inject/1/ivys/ivy.xml
-[debug] 	local: no ivy file found for javax.inject#javax.inject;1
-[debug] 		tried https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
-[debug] 	public: found md file for javax.inject#javax.inject;1
-[debug] 		=> https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom (1)
-[debug] downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
-[debug] 	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.pom(pom.original) (325ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/javax.inject/javax.inject/1/jars/javax.inject.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/javax.inject/javax.inject/1/jars/javax.inject.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.inject/javax.inject/1/jars/javax.inject.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.inject/javax.inject/1/jars/javax.inject.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/javax.inject/javax.inject/1/jars/javax.inject.jar
-[debug] 		tried https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
-[debug] 	found javax.inject#javax.inject;1 in public
+[debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
+[debug] 	found javax.inject#javax.inject;1 in sbt-chain
 [debug] == resolving dependencies javax.enterprise#cdi-api;1.0->javax.inject#javax.inject;1 [compile->compile(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.codehaus.plexus#plexus-utils;3.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -988,65 +180,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.codehaus.plexus#plexus-utils;3.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.pom
-[debug] 	public: found md file for org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.pom (0.3.0)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0!org.eclipse.sisu.inject.pom(pom.original) (299ms)
-[info] Resolving org.eclipse.sisu#sisu-inject;0.3.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.eclipse.sisu#sisu-inject;0.3.0 {}
-[info] Resolving org.eclipse.sisu#sisu-inject;0.3.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.sisu#sisu-inject;0.3.0 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/sisu-inject/0.3.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/sisu-inject/0.3.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.eclipse.sisu#sisu-inject;0.3.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/sisu-inject/0.3.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/sisu-inject/0.3.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.eclipse.sisu#sisu-inject;0.3.0
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.eclipse.sisu/sisu-inject/0.3.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.eclipse.sisu#sisu-inject;0.3.0
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.pom
-[debug] 	public: found md file for org.eclipse.sisu#sisu-inject;0.3.0
-[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.pom (0.3.0)
-[debug] downloading https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.pom
-[debug] 	[SUCCESSFUL ] org.eclipse.sisu#sisu-inject;0.3.0!sisu-inject.pom(pom.original) (339ms)
-[info] Resolving org.sonatype.oss#oss-parent;9 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/sisu-inject/0.3.0/jars/sisu-inject.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/sisu-inject/0.3.0/jars/sisu-inject.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/sisu-inject/0.3.0/jars/sisu-inject.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/sisu-inject/0.3.0/jars/sisu-inject.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.eclipse.sisu/sisu-inject/0.3.0/jars/sisu-inject.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/sisu-inject/0.3.0/jars/sisu-inject.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/sisu-inject/0.3.0/jars/sisu-inject.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/eclipse/sisu/sisu-inject/0.3.0/sisu-inject-0.3.0.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.0/eclipse-plugins/org.eclipse.sisu.inject.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.0/eclipse-plugins/org.eclipse.sisu.inject.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.0/eclipse-plugins/org.eclipse.sisu.inject.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.0/eclipse-plugins/org.eclipse.sisu.inject.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.eclipse.sisu/org.eclipse.sisu.inject/0.3.0/eclipse-plugins/org.eclipse.sisu.inject.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.jar
-[debug] 	found org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0 in public
+[debug] sbt-chain: module revision found in cache: org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0
+[debug] 	found org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0 in sbt-chain
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0 [compile->compile(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-component-annotations;1.5.5 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.codehaus.plexus#plexus-utils;3.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1055,93 +190,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.codehaus.plexus#plexus-utils;3.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.codehaus.plexus#plexus-component-annotations;1.5.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.codehaus.plexus#plexus-component-annotations;1.5.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.codehaus.plexus#plexus-component-annotations;1.5.5 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.codehaus.plexus#plexus-component-annotations;1.5.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-component-annotations/1.5.5/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-component-annotations/1.5.5/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.codehaus.plexus#plexus-component-annotations;1.5.5
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-component-annotations/1.5.5/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-component-annotations/1.5.5/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.codehaus.plexus#plexus-component-annotations;1.5.5
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.codehaus.plexus/plexus-component-annotations/1.5.5/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.codehaus.plexus#plexus-component-annotations;1.5.5
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
-[debug] 	public: found md file for org.codehaus.plexus#plexus-component-annotations;1.5.5
-[debug] 		=> https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom (1.5.5)
-[debug] downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
-[debug] 	[SUCCESSFUL ] org.codehaus.plexus#plexus-component-annotations;1.5.5!plexus-component-annotations.pom(pom.original) (200ms)
-[info] Resolving org.codehaus.plexus#plexus-containers;1.5.5 ...
-[debug] sbt-chain: Checking cache for: dependency: org.codehaus.plexus#plexus-containers;1.5.5 {}
-[info] Resolving org.codehaus.plexus#plexus-containers;1.5.5 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.codehaus.plexus#plexus-containers;1.5.5 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-containers/1.5.5/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-containers/1.5.5/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.codehaus.plexus#plexus-containers;1.5.5
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-containers/1.5.5/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-containers/1.5.5/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.codehaus.plexus#plexus-containers;1.5.5
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.codehaus.plexus/plexus-containers/1.5.5/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.codehaus.plexus#plexus-containers;1.5.5
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
-[debug] 	public: found md file for org.codehaus.plexus#plexus-containers;1.5.5
-[debug] 		=> https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom (1.5.5)
-[debug] downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
-[debug] 	[SUCCESSFUL ] org.codehaus.plexus#plexus-containers;1.5.5!plexus-containers.pom(pom.original) (273ms)
-[info] Resolving org.codehaus.plexus#plexus;2.0.7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.codehaus.plexus#plexus;2.0.7 {}
-[info] Resolving org.codehaus.plexus#plexus;2.0.7 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.codehaus.plexus#plexus;2.0.7 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus/2.0.7/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus/2.0.7/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.codehaus.plexus#plexus;2.0.7
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/2.0.7/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/2.0.7/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.codehaus.plexus#plexus;2.0.7
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.codehaus.plexus/plexus/2.0.7/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.codehaus.plexus#plexus;2.0.7
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom
-[debug] 	public: found md file for org.codehaus.plexus#plexus;2.0.7
-[debug] 		=> https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom (2.0.7)
-[debug] downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom
-[debug] 	[SUCCESSFUL ] org.codehaus.plexus#plexus;2.0.7!plexus.pom(pom.original) (331ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus/2.0.7/jars/plexus.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus/2.0.7/jars/plexus.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/2.0.7/jars/plexus.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/2.0.7/jars/plexus.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.codehaus.plexus/plexus/2.0.7/jars/plexus.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/2.0.7/jars/plexus.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus/2.0.7/jars/plexus.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-containers/1.5.5/jars/plexus-containers.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-containers/1.5.5/jars/plexus-containers.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-containers/1.5.5/jars/plexus-containers.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-containers/1.5.5/jars/plexus-containers.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.codehaus.plexus/plexus-containers/1.5.5/jars/plexus-containers.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-containers/1.5.5/jars/plexus-containers.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-containers/1.5.5/jars/plexus-containers.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-component-annotations/1.5.5/jars/plexus-component-annotations.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-component-annotations/1.5.5/jars/plexus-component-annotations.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-component-annotations/1.5.5/jars/plexus-component-annotations.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-component-annotations/1.5.5/jars/plexus-component-annotations.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.codehaus.plexus/plexus-component-annotations/1.5.5/jars/plexus-component-annotations.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
-[debug] 	found org.codehaus.plexus#plexus-component-annotations;1.5.5 in public
+[debug] sbt-chain: module revision found in cache: org.codehaus.plexus#plexus-component-annotations;1.5.5
+[debug] 	found org.codehaus.plexus#plexus-component-annotations;1.5.5 in sbt-chain
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-component-annotations;1.5.5 [compile->compile(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-classworlds;2.5.2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.codehaus.plexus#plexus-utils;3.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1150,34 +200,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.codehaus.plexus#plexus-utils;3.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [info] Resolving org.codehaus.plexus#plexus-classworlds;2.5.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.codehaus.plexus#plexus-classworlds;2.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.codehaus.plexus#plexus-classworlds;2.5.2 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.codehaus.plexus#plexus-classworlds;2.5.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-classworlds/2.5.2/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-classworlds/2.5.2/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.codehaus.plexus#plexus-classworlds;2.5.2
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-classworlds/2.5.2/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-classworlds/2.5.2/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.codehaus.plexus#plexus-classworlds;2.5.2
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.codehaus.plexus/plexus-classworlds/2.5.2/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.codehaus.plexus#plexus-classworlds;2.5.2
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
-[debug] 	public: found md file for org.codehaus.plexus#plexus-classworlds;2.5.2
-[debug] 		=> https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom (2.5.2)
-[debug] downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
-[debug] 	[SUCCESSFUL ] org.codehaus.plexus#plexus-classworlds;2.5.2!plexus-classworlds.pom(pom.original) (225ms)
-[info] Resolving org.codehaus.plexus#plexus;3.3.1 ...
-[debug] sbt-chain: Checking cache for: dependency: org.codehaus.plexus#plexus;3.3.1 {}
-[debug] sbt-chain: module revision found in cache: org.codehaus.plexus#plexus;3.3.1
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-classworlds/2.5.2/bundles/plexus-classworlds.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.codehaus.plexus/plexus-classworlds/2.5.2/bundles/plexus-classworlds.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-classworlds/2.5.2/bundles/plexus-classworlds.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.codehaus.plexus/plexus-classworlds/2.5.2/bundles/plexus-classworlds.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.codehaus.plexus/plexus-classworlds/2.5.2/bundles/plexus-classworlds.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar
-[debug] 	found org.codehaus.plexus#plexus-classworlds;2.5.2 in public
+[debug] sbt-chain: module revision found in cache: org.codehaus.plexus#plexus-classworlds;2.5.2
+[debug] 	found org.codehaus.plexus#plexus-classworlds;2.5.2 in sbt-chain
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-classworlds;2.5.2 [compile->compile(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0->org.codehaus.plexus#plexus-utils;3.0.20 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.codehaus.plexus#plexus-utils;3.0.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.codehaus.plexus#plexus-utils;3.0.20 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1228,31 +252,8 @@
 [debug] == resolving dependencies org.spark-packages#sbt-spark-package;0.2.5->org.scalaj#scalaj-http_2.10;1.1.4 [compile->master(compile)]
 [info] Resolving org.scalaj#scalaj-http_2.10;1.1.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalaj#scalaj-http_2.10;1.1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scalaj#scalaj-http_2.10;1.1.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalaj#scalaj-http_2.10;1.1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaj/scalaj-http_2.10/1.1.4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaj/scalaj-http_2.10/1.1.4/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.scalaj#scalaj-http_2.10;1.1.4
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaj/scalaj-http_2.10/1.1.4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaj/scalaj-http_2.10/1.1.4/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.scalaj#scalaj-http_2.10;1.1.4
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.scalaj/scalaj-http_2.10/1.1.4/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scalaj#scalaj-http_2.10;1.1.4
-[debug] 		tried https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/1.1.4/scalaj-http_2.10-1.1.4.pom
-[debug] 	public: found md file for org.scalaj#scalaj-http_2.10;1.1.4
-[debug] 		=> https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/1.1.4/scalaj-http_2.10-1.1.4.pom (1.1.4)
-[debug] downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/1.1.4/scalaj-http_2.10-1.1.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/1.1.4/scalaj-http_2.10-1.1.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/1.1.4/scalaj-http_2.10-1.1.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/1.1.4/scalaj-http_2.10-1.1.4.pom
-[debug] 	[SUCCESSFUL ] org.scalaj#scalaj-http_2.10;1.1.4!scalaj-http_2.10.pom(pom.original) (246ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaj/scalaj-http_2.10/1.1.4/jars/scalaj-http_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaj/scalaj-http_2.10/1.1.4/jars/scalaj-http_2.10.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaj/scalaj-http_2.10/1.1.4/jars/scalaj-http_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaj/scalaj-http_2.10/1.1.4/jars/scalaj-http_2.10.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.scalaj/scalaj-http_2.10/1.1.4/jars/scalaj-http_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/1.1.4/scalaj-http_2.10-1.1.4.jar
-[debug] 	found org.scalaj#scalaj-http_2.10;1.1.4 in public
+[debug] sbt-chain: module revision found in cache: org.scalaj#scalaj-http_2.10;1.1.4
+[debug] 	found org.scalaj#scalaj-http_2.10;1.1.4 in sbt-chain
 [debug] == resolving dependencies org.spark-packages#sbt-spark-package;0.2.5->org.scalaj#scalaj-http_2.10;1.1.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;1.1.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;1.1.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
@@ -1263,246 +264,14 @@
 [debug] == resolving dependencies org.spark-packages#sbt-spark-package;0.2.5->org.apache.directory.studio#org.apache.commons.codec;1.8 [compile->master(compile)]
 [info] Resolving org.apache.directory.studio#org.apache.commons.codec;1.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.directory.studio#org.apache.commons.codec;1.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.apache.directory.studio#org.apache.commons.codec;1.8 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.directory.studio#org.apache.commons.codec;1.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.studio/org.apache.commons.codec/1.8/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.studio/org.apache.commons.codec/1.8/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.directory.studio#org.apache.commons.codec;1.8
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/org.apache.commons.codec/1.8/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/org.apache.commons.codec/1.8/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.directory.studio#org.apache.commons.codec;1.8
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.directory.studio/org.apache.commons.codec/1.8/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.directory.studio#org.apache.commons.codec;1.8
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.pom
-[debug] 	public: found md file for org.apache.directory.studio#org.apache.commons.codec;1.8
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.pom (1.8)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.pom
-[debug] 	[SUCCESSFUL ] org.apache.directory.studio#org.apache.commons.codec;1.8!org.apache.commons.codec.pom(pom.original) (266ms)
-[info] Resolving org.apache.directory.studio#parent-libraries;2.0.0.v20130628 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.directory.studio#parent-libraries;2.0.0.v20130628 {}
-[info] Resolving org.apache.directory.studio#parent-libraries;2.0.0.v20130628 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.directory.studio#parent-libraries;2.0.0.v20130628 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.studio/parent-libraries/2.0.0.v20130628/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.studio/parent-libraries/2.0.0.v20130628/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.directory.studio#parent-libraries;2.0.0.v20130628
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/parent-libraries/2.0.0.v20130628/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/parent-libraries/2.0.0.v20130628/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.directory.studio#parent-libraries;2.0.0.v20130628
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.directory.studio/parent-libraries/2.0.0.v20130628/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.directory.studio#parent-libraries;2.0.0.v20130628
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/directory/studio/parent-libraries/2.0.0.v20130628/parent-libraries-2.0.0.v20130628.pom
-[debug] 	public: found md file for org.apache.directory.studio#parent-libraries;2.0.0.v20130628
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/directory/studio/parent-libraries/2.0.0.v20130628/parent-libraries-2.0.0.v20130628.pom (2.0.0.v20130628)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/directory/studio/parent-libraries/2.0.0.v20130628/parent-libraries-2.0.0.v20130628.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/directory/studio/parent-libraries/2.0.0.v20130628/parent-libraries-2.0.0.v20130628.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/directory/studio/parent-libraries/2.0.0.v20130628/parent-libraries-2.0.0.v20130628.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/directory/studio/parent-libraries/2.0.0.v20130628/parent-libraries-2.0.0.v20130628.pom
-[debug] 	[SUCCESSFUL ] org.apache.directory.studio#parent-libraries;2.0.0.v20130628!parent-libraries.pom(pom.original) (379ms)
-[info] Resolving org.apache.directory.studio#parent;2.0.0.v20130628 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.directory.studio#parent;2.0.0.v20130628 {}
-[info] Resolving org.apache.directory.studio#parent;2.0.0.v20130628 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.directory.studio#parent;2.0.0.v20130628 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.studio/parent/2.0.0.v20130628/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.studio/parent/2.0.0.v20130628/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.directory.studio#parent;2.0.0.v20130628
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/parent/2.0.0.v20130628/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/parent/2.0.0.v20130628/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.directory.studio#parent;2.0.0.v20130628
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.directory.studio/parent/2.0.0.v20130628/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.directory.studio#parent;2.0.0.v20130628
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/directory/studio/parent/2.0.0.v20130628/parent-2.0.0.v20130628.pom
-[debug] 	public: found md file for org.apache.directory.studio#parent;2.0.0.v20130628
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/directory/studio/parent/2.0.0.v20130628/parent-2.0.0.v20130628.pom (2.0.0.v20130628)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/directory/studio/parent/2.0.0.v20130628/parent-2.0.0.v20130628.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/directory/studio/parent/2.0.0.v20130628/parent-2.0.0.v20130628.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/directory/studio/parent/2.0.0.v20130628/parent-2.0.0.v20130628.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/directory/studio/parent/2.0.0.v20130628/parent-2.0.0.v20130628.pom
-[debug] 	[SUCCESSFUL ] org.apache.directory.studio#parent;2.0.0.v20130628!parent.pom(pom.original) (404ms)
-[info] Resolving org.apache.directory.project#project;31 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.directory.project#project;31 {}
-[info] Resolving org.apache.directory.project#project;31 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.directory.project#project;31 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.project/project/31/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.project/project/31/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.directory.project#project;31
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.project/project/31/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.project/project/31/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.directory.project#project;31
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.directory.project/project/31/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.directory.project#project;31
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/directory/project/project/31/project-31.pom
-[debug] 	public: found md file for org.apache.directory.project#project;31
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/directory/project/project/31/project-31.pom (31)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/directory/project/project/31/project-31.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/directory/project/project/31/project-31.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/directory/project/project/31/project-31.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/directory/project/project/31/project-31.pom
-[debug] 	[SUCCESSFUL ] org.apache.directory.project#project;31!project.pom(pom.original) (176ms)
-[info] Resolving org.apache#apache;11 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;11 {}
-[info] Resolving org.apache#apache;11 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache#apache;11 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/11/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache#apache;11
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/11/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache#apache;11
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache/apache/11/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache#apache;11
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/11/apache-11.pom
-[debug] 	public: found md file for org.apache#apache;11
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/apache/11/apache-11.pom (11)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/apache/11/apache-11.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/11/apache-11.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/11/apache-11.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/apache/11/apache-11.pom
-[debug] 	[SUCCESSFUL ] org.apache#apache;11!apache.pom(pom.original) (186ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/11/jars/apache.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/11/jars/apache.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/11/jars/apache.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/11/jars/apache.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache/apache/11/jars/apache.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/11/apache-11.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/11/apache-11.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/11/jars/apache.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/11/jars/apache.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/apache/apache/11/apache-11.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/apache/apache/11/apache-11.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.project/project/31/jars/project.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.project/project/31/jars/project.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.project/project/31/jars/project.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.project/project/31/jars/project.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.directory.project/project/31/jars/project.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/directory/project/project/31/project-31.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/directory/project/project/31/project-31.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.project/project/31/jars/project.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.project/project/31/jars/project.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/apache/directory/project/project/31/project-31.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/apache/directory/project/project/31/project-31.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.studio/parent/2.0.0.v20130628/jars/parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.studio/parent/2.0.0.v20130628/jars/parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/parent/2.0.0.v20130628/jars/parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/parent/2.0.0.v20130628/jars/parent.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.directory.studio/parent/2.0.0.v20130628/jars/parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/directory/studio/parent/2.0.0.v20130628/parent-2.0.0.v20130628.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/directory/studio/parent/2.0.0.v20130628/parent-2.0.0.v20130628.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/parent/2.0.0.v20130628/jars/parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/parent/2.0.0.v20130628/jars/parent.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/apache/directory/studio/parent/2.0.0.v20130628/parent-2.0.0.v20130628.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/apache/directory/studio/parent/2.0.0.v20130628/parent-2.0.0.v20130628.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.studio/parent-libraries/2.0.0.v20130628/jars/parent-libraries.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.studio/parent-libraries/2.0.0.v20130628/jars/parent-libraries.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/parent-libraries/2.0.0.v20130628/jars/parent-libraries.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/parent-libraries/2.0.0.v20130628/jars/parent-libraries.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.directory.studio/parent-libraries/2.0.0.v20130628/jars/parent-libraries.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/directory/studio/parent-libraries/2.0.0.v20130628/parent-libraries-2.0.0.v20130628.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/directory/studio/parent-libraries/2.0.0.v20130628/parent-libraries-2.0.0.v20130628.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/parent-libraries/2.0.0.v20130628/jars/parent-libraries.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/parent-libraries/2.0.0.v20130628/jars/parent-libraries.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/apache/directory/studio/parent-libraries/2.0.0.v20130628/parent-libraries-2.0.0.v20130628.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/apache/directory/studio/parent-libraries/2.0.0.v20130628/parent-libraries-2.0.0.v20130628.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.studio/org.apache.commons.codec/1.8/jars/org.apache.commons.codec.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.directory.studio/org.apache.commons.codec/1.8/jars/org.apache.commons.codec.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/org.apache.commons.codec/1.8/jars/org.apache.commons.codec.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.directory.studio/org.apache.commons.codec/1.8/jars/org.apache.commons.codec.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.directory.studio/org.apache.commons.codec/1.8/jars/org.apache.commons.codec.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.jar
-[debug] 	found org.apache.directory.studio#org.apache.commons.codec;1.8 in public
+[debug] sbt-chain: module revision found in cache: org.apache.directory.studio#org.apache.commons.codec;1.8
+[debug] 	found org.apache.directory.studio#org.apache.commons.codec;1.8 in sbt-chain
 [debug] == resolving dependencies org.spark-packages#sbt-spark-package;0.2.5->org.apache.directory.studio#org.apache.commons.codec;1.8 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.directory.studio#org.apache.commons.codec;1.8->commons-codec#commons-codec;1.8 [compile->master(compile)]
 [info] Resolving commons-codec#commons-codec;1.8 ...
 [debug] sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving commons-codec#commons-codec;1.8 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: commons-codec#commons-codec;1.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.8/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.8/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for commons-codec#commons-codec;1.8
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.8/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.8/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for commons-codec#commons-codec;1.8
-[debug] 		tried /Users/hardikdalal/.ivy2/local/commons-codec/commons-codec/1.8/ivys/ivy.xml
-[debug] 	local: no ivy file found for commons-codec#commons-codec;1.8
-[debug] 		tried https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
-[debug] 	public: found md file for commons-codec#commons-codec;1.8
-[debug] 		=> https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.pom (1.8)
-[debug] downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
-[debug] 	[SUCCESSFUL ] commons-codec#commons-codec;1.8!commons-codec.pom(pom.original) (346ms)
-[info] Resolving org.apache.commons#commons-parent;28 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;28 {}
-[info] Resolving org.apache.commons#commons-parent;28 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;28 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/28/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/28/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache.commons#commons-parent;28
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/28/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/28/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache.commons#commons-parent;28
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.commons/commons-parent/28/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache.commons#commons-parent;28
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
-[debug] 	public: found md file for org.apache.commons#commons-parent;28
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom (28)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;28!commons-parent.pom(pom.original) (336ms)
-[info] Resolving org.apache#apache;13 ...
-[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;13 {}
-[info] Resolving org.apache#apache;13 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache#apache;13 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/13/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/13/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.apache#apache;13
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/13/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/13/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.apache#apache;13
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache/apache/13/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.apache#apache;13
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
-[debug] 	public: found md file for org.apache#apache;13
-[debug] 		=> https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom (13)
-[debug] downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
-[debug] 	[SUCCESSFUL ] org.apache#apache;13!apache.pom(pom.original) (345ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/13/jars/apache.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache/apache/13/jars/apache.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/13/jars/apache.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/13/jars/apache.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache/apache/13/jars/apache.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/13/jars/apache.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache/apache/13/jars/apache.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/apache/apache/13/apache-13.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/apache/apache/13/apache-13.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/28/jars/commons-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.commons/commons-parent/28/jars/commons-parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/28/jars/commons-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/28/jars/commons-parent.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/org.apache.commons/commons-parent/28/jars/commons-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/28/jars/commons-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.commons/commons-parent/28/jars/commons-parent.jar
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/apache/commons/commons-parent/28/commons-parent-28.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/spark-packages/maven/org/apache/commons/commons-parent/28/commons-parent-28.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.8/jars/commons-codec.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/commons-codec/commons-codec/1.8/jars/commons-codec.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.8/jars/commons-codec.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/commons-codec/commons-codec/1.8/jars/commons-codec.jar
-[debug] 		tried /Users/hardikdalal/.ivy2/local/commons-codec/commons-codec/1.8/jars/commons-codec.jar
-[debug] 		tried https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar
-[debug] 	found commons-codec#commons-codec;1.8 in public
+[debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.8
+[debug] 	found commons-codec#commons-codec;1.8 in sbt-chain
 [debug] == resolving dependencies org.apache.directory.studio#org.apache.commons.codec;1.8->commons-codec#commons-codec;1.8 [compile->compile(*)]
 [debug] == resolving dependencies org.spark-packages#sbt-spark-package;0.2.5->org.apache.directory.studio#org.apache.commons.codec;1.8 [compile->runtime(*)]
 [debug] == resolving dependencies org.spark-packages#sbt-spark-package;0.2.5->org.apache.directory.studio#org.apache.commons.codec;1.8 [compile->compile]
@@ -1518,6 +287,7 @@
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->default(compile)]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->runtime]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->compile]
@@ -1677,6 +447,7 @@
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->default(compile)]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->runtime]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->compile]
@@ -2519,6 +1290,7 @@
 [debug] resolving dependencies for configuration 'compile-internal'
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [compile-internal]
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->default(compile)]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->runtime]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->compile]
@@ -3142,6 +1914,7 @@
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [runtime-internal]
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->default(compile)]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->runtime]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->compile]
@@ -3303,6 +2076,7 @@
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#ate-crf-spark-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->default(compile)]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->runtime]
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.spark-packages#sbt-spark-package;0.2.5 [compile->compile]
@@ -3973,146 +2747,31 @@
 [debug] == resolving dependencies default#ate-crf-spark-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.jar
-[info] downloading https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.jar ...
-[debug] 	Spark Package Main Repo: downloading https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.jar
-[debug] 	Spark Package Main Repo: downloading https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.jar.sha1
-[debug] sha1 OK for https://dl.bintray.com/spark-packages/maven/org/spark-packages/sbt-spark-package_2.10_0.13/0.2.5/sbt-spark-package-0.2.5.jar
-[info] 	[SUCCESSFUL ] org.spark-packages#sbt-spark-package;0.2.5!sbt-spark-package.jar (878ms)
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/jars/sbt-assembly.jar
-[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/jars/sbt-assembly.jar ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/jars/sbt-assembly.jar
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/jars/sbt-assembly.jar.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.14.3/jars/sbt-assembly.jar
-[info] 	[SUCCESSFUL ] com.eed3si9n#sbt-assembly;0.14.3!sbt-assembly.jar (2451ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/1.1.4/scalaj-http_2.10-1.1.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/1.1.4/scalaj-http_2.10-1.1.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/1.1.4/scalaj-http_2.10-1.1.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/1.1.4/scalaj-http_2.10-1.1.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.10/1.1.4/scalaj-http_2.10-1.1.4.jar
-[info] 	[SUCCESSFUL ] org.scalaj#scalaj-http_2.10;1.1.4!scalaj-http_2.10.jar (450ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/directory/studio/org.apache.commons.codec/1.8/org.apache.commons.codec-1.8.jar
-[info] 	[SUCCESSFUL ] org.apache.directory.studio#org.apache.commons.codec;1.8!org.apache.commons.codec.jar (513ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.10/2.2.1/scalactic_2.10-2.2.1.jar
-[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.10;2.2.1!scalactic_2.10.jar(bundle) (625ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.0/jarjar-1.6.0.jar
-[info] downloading https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.0/jarjar-1.6.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.0/jarjar-1.6.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.0/jarjar-1.6.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/pantsbuild/jarjar/1.6.0/jarjar-1.6.0.jar
-[info] 	[SUCCESSFUL ] org.pantsbuild#jarjar;1.6.0!jarjar.jar (372ms)
+[debug] 	[NOT REQUIRED] org.spark-packages#sbt-spark-package;0.2.5!sbt-spark-package.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.14.3!sbt-assembly.jar
+[debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.10;1.1.4!scalaj-http_2.10.jar
+[debug] 	[NOT REQUIRED] org.apache.directory.studio#org.apache.commons.codec;1.8!org.apache.commons.codec.jar
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.10;2.2.1!scalactic_2.10.jar(bundle)
+[debug] 	[NOT REQUIRED] org.pantsbuild#jarjar;1.6.0!jarjar.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar
-[info] 	[SUCCESSFUL ] org.apache.ant#ant;1.9.6!ant.jar (886ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm;5.0.4!asm.jar (162ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm-commons;5.0.4!asm-commons.jar (237ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.3.3/maven-plugin-api-3.3.3.jar
-[info] 	[SUCCESSFUL ] org.apache.maven#maven-plugin-api;3.3.3!maven-plugin-api.jar (373ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar
-[info] 	[SUCCESSFUL ] org.apache.ant#ant-launcher;1.9.6!ant-launcher.jar (148ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm-tree;5.0.4!asm-tree.jar (182ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.3.3/maven-model-3.3.3.jar
-[info] 	[SUCCESSFUL ] org.apache.maven#maven-model;3.3.3!maven-model.jar (377ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.3.3/maven-artifact-3.3.3.jar
-[info] 	[SUCCESSFUL ] org.apache.maven#maven-artifact;3.3.3!maven-artifact.jar (195ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.0/org.eclipse.sisu.plexus-0.3.0.jar
-[info] 	[SUCCESSFUL ] org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0!org.eclipse.sisu.plexus.jar(eclipse-plugin) (187ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar
-[info] downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar
-[info] 	[SUCCESSFUL ] org.codehaus.plexus#plexus-utils;3.0.20!plexus-utils.jar (343ms)
-[debug] 		tried https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
-[info] downloading https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
-[info] 	[SUCCESSFUL ] javax.enterprise#cdi-api;1.0!cdi-api.jar (381ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.jar
-[info] downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.0/org.eclipse.sisu.inject-0.3.0.jar
-[info] 	[SUCCESSFUL ] org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0!org.eclipse.sisu.inject.jar(eclipse-plugin) (410ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
-[info] downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
-[info] 	[SUCCESSFUL ] org.codehaus.plexus#plexus-component-annotations;1.5.5!plexus-component-annotations.jar (366ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar
-[info] downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar
-[info] 	[SUCCESSFUL ] org.codehaus.plexus#plexus-classworlds;2.5.2!plexus-classworlds.jar(bundle) (205ms)
-[debug] 		tried https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
-[info] downloading https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
-[info] 	[SUCCESSFUL ] javax.annotation#jsr250-api;1.0!jsr250-api.jar (227ms)
-[debug] 		tried https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
-[info] downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
-[info] 	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.jar (296ms)
-[debug] 		tried https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar
-[info] downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar
-[info] 	[SUCCESSFUL ] commons-codec#commons-codec;1.8!commons-codec.jar (374ms)
+[debug] 	[NOT REQUIRED] org.apache.ant#ant;1.9.6!ant.jar
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm;5.0.4!asm.jar
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm-commons;5.0.4!asm-commons.jar
+[debug] 	[NOT REQUIRED] org.apache.maven#maven-plugin-api;3.3.3!maven-plugin-api.jar
+[debug] 	[NOT REQUIRED] org.apache.ant#ant-launcher;1.9.6!ant-launcher.jar
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;5.0.4!asm-tree.jar
+[debug] 	[NOT REQUIRED] org.apache.maven#maven-model;3.3.3!maven-model.jar
+[debug] 	[NOT REQUIRED] org.apache.maven#maven-artifact;3.3.3!maven-artifact.jar
+[debug] 	[NOT REQUIRED] org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.0!org.eclipse.sisu.plexus.jar(eclipse-plugin)
+[debug] 	[NOT REQUIRED] org.codehaus.plexus#plexus-utils;3.0.20!plexus-utils.jar
+[debug] 	[NOT REQUIRED] javax.enterprise#cdi-api;1.0!cdi-api.jar
+[debug] 	[NOT REQUIRED] org.eclipse.sisu#org.eclipse.sisu.inject;0.3.0!org.eclipse.sisu.inject.jar(eclipse-plugin)
+[debug] 	[NOT REQUIRED] org.codehaus.plexus#plexus-component-annotations;1.5.5!plexus-component-annotations.jar
+[debug] 	[NOT REQUIRED] org.codehaus.plexus#plexus-classworlds;2.5.2!plexus-classworlds.jar(bundle)
+[debug] 	[NOT REQUIRED] javax.annotation#jsr250-api;1.0!jsr250-api.jar
+[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar
+[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.8!commons-codec.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-src.jar
@@ -4167,7 +2826,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 109181ms :: artifacts dl 10669ms
+[debug] :: resolution report :: resolve 668ms :: artifacts dl 29ms
 [debug] 	report for default#ate-crf-spark-build;0.1-SNAPSHOT compile produced in /Users/hardikdalal/github/ate-crf-spark/project/target/resolution-cache/reports/default-ate-crf-spark-build-compile.xml
 [debug] 	report for default#ate-crf-spark-build;0.1-SNAPSHOT runtime produced in /Users/hardikdalal/github/ate-crf-spark/project/target/resolution-cache/reports/default-ate-crf-spark-build-runtime.xml
 [debug] 	report for default#ate-crf-spark-build;0.1-SNAPSHOT test produced in /Users/hardikdalal/github/ate-crf-spark/project/target/resolution-cache/reports/default-ate-crf-spark-build-test.xml
@@ -4181,5 +2840,5 @@
 [debug] 	report for default#ate-crf-spark-build;0.1-SNAPSHOT docs produced in /Users/hardikdalal/github/ate-crf-spark/project/target/resolution-cache/reports/default-ate-crf-spark-build-docs.xml
 [debug] 	report for default#ate-crf-spark-build;0.1-SNAPSHOT pom produced in /Users/hardikdalal/github/ate-crf-spark/project/target/resolution-cache/reports/default-ate-crf-spark-build-pom.xml
 [debug] 	report for default#ate-crf-spark-build;0.1-SNAPSHOT scala-tool produced in /Users/hardikdalal/github/ate-crf-spark/project/target/resolution-cache/reports/default-ate-crf-spark-build-scala-tool.xml
-[debug] 	resolve done (109181ms resolve - 10669ms download)
+[debug] 	resolve done (668ms resolve - 29ms download)
 [info] Done updating.

@@ -4,7 +4,7 @@
 		module="rat_aws_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20171128192734"
+		publication="20171210135907"
 	>
 		<description>
 		RAT_AWS
