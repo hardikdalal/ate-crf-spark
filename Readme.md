@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/hardikdalal/ate-crf-spark/blob/master/LICENSE)
+
 # Aspect Term Extraction from Customer Reviews using Conditional Random Fields
 
 This repository is part of a research carried out at the Faculty of Computer Science, Dalhousie University.
@@ -17,10 +19,6 @@ Keywords: Aspect-based Sentiment Analysis; Aspect-term Extraction; Data Analytic
 ## Authors
 
 Hardik Dalal (Research Assistant) and Dr. Qigang Gao (Professor)
-
-## License
-
-This project is licensed under the Apache License - see the LICENSE.md file for details
 
 ## NOTE
 
