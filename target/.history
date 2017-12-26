@@ -2,3 +2,8 @@ compile
 :quit
 quit
 exit
+compile
+package
+:quit
+quit
+exit

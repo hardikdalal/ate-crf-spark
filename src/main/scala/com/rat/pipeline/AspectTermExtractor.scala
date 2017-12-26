@@ -68,42 +68,62 @@ object AspectTermExtractor {
         if (governors.get(i).isPresent && governors.get(i).get() != -1)
           strBuffer.append(tokens.get(governors.get(i).get()))
         else
-          strBuffer.append("")
+          strBuffer.append("NULL")
         if (dependencies.get(i).isPresent)
           strBuffer.append(dependencies.get(i).get())
         else
-          strBuffer.append("")
+          strBuffer.append("NULL")
 
         var ioTag = "O"
         if (aspectTerm.contains(tokens.get(i)))
           ioTag = "I"
 
         tokenBuffer.append(Token.put(ioTag, strBuffer.toArray))
-
       }
       (item._1, new Sequence(tokenBuffer.toArray))
     }).map(_._2)
 
-    val splits: Array[RDD[Sequence]] = featureVectorRdd.randomSplit(Array(0.8, 0.2))
+    featureVectorRdd.saveAsTextFile("Feature Vector")
+
+    val splits: Array[RDD[Sequence]] = featureVectorRdd.randomSplit(Array(0.7, 0.3))
 
     val trainRdd: RDD[Sequence] = splits(0)
 
     val testRdd: RDD[Sequence] = splits(1)
 
+    val gsAspectRdd: RDD[String] = testRdd
+      .map(sequence => {
+        sequence.toArray
+          .filter(token => token.label.equals("I"))
+          .map(token => token.tags.apply(0))
+      }).map(_.mkString("\n"))
+      .filter(_.nonEmpty)
+      .distinct()
+
+    gsAspectRdd.saveAsTextFile("GSAspect")
+
     val templates: Array[String] = scala.io.Source.fromFile("/Users/hardikdalal/github/ate-crf-spark/template").getLines().filter(_.nonEmpty).toArray
     val model: CRFModel = CRF.train(templates, trainRdd, 0.25, 1, 100, 1E-3, "L1")
 
-    val results: RDD[Sequence] = model.predict(testRdd)
+    val resultRdd: RDD[Sequence] = model.predict(testRdd)
 
-    val score = results
-      .zipWithIndex()
-      .map(_.swap)
-      .join(testRdd.zipWithIndex().map(_.swap))
-      .map(_._2)
-      .map(x => x._1.compare(x._2))
-      .reduce(_ + _)
-    val total = testRdd.map(_.toArray.length).reduce(_ + _)
-    println(s"Prediction Accuracy: $score / $total")
+    val extractedAspectRdd: RDD[String] = resultRdd
+      .map(sequence => {
+        sequence.toArray
+          .filter(token => token.label.equals("I"))
+          .map(token => token.tags.apply(0))
+      }).map(_.mkString("\n"))
+      .filter(_.nonEmpty)
+      .distinct()
+
+    extractedAspectRdd.saveAsTextFile("ExtractedAspects")
+
+    val score = gsAspectRdd.intersection(extractedAspectRdd).collect().length
+    val precision = score / extractedAspectRdd.count()
+    val recall = score / gsAspectRdd.count()
+
+    println("Precision = " + precision)
+    println("Recall = " + recall)
 
     sc.stop()
   }
